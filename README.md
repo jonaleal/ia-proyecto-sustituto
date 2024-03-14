@@ -1,13 +1,11 @@
-### Nombre: Jonatan Jair Leal González 
-### CC: 1128482518 
-### Programa: Ingeniería de Sistemas
+## Datos estudiante
+
+**Nombre**: Jonatan Jair Leal González 
+**C.C**: 1128482518
+**Programa**: Ingeniería de sistemas
 # Predicción de diabetes
 
-## Requisitos
-- Python 3
-
-## Instalación
-- Ejecuta ```pip install -r requirements.txt``` para instalar las dependencias del proyecto.
-
 ## Uso
-- Ejecuta el notebook ````Diabetes_Prediction```` en el directorio ```fase-1``` para ver cómo se entrena y predice con el modelo.
+1. Abre el notebook ````Diabetes_Prediction```` del directorio ```fase-1``` en google colab.
+2. Sube las credenciales de kaggle a colab (kaggle.json).
+3. Ejecuta el notebook para ver cómo se entrena y predice con el modelo.

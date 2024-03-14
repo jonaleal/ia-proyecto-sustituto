@@ -1,7 +1,8 @@
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
-
+requirements.txt
+diabetes_prediction_dataset.csv
 # C extensions
 *.so
 
