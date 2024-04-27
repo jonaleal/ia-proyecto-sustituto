@@ -1,3 +1,6 @@
 requirements.txt
 diabetes_prediction_dataset.csv
 .venv/
+kaggle.json
+Diabetes_Prediction.ipynb
+fase-1/
