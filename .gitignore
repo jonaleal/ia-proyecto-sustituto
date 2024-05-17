@@ -1,7 +1,7 @@
 global-requirements.txt
 diabetes_prediction_dataset.csv
 .venv/
+__pycache__/
 kaggle.json
 Diabetes_Prediction.ipynb
 fase-1/
-.gitignore
