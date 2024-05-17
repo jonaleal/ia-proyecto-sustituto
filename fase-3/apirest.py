@@ -19,8 +19,7 @@ overwrite = True  # Sobrescribir el modelo existente
 @app.post("/train")
 def train():
     """
-    Una función que entrena un modelo de aprendizaje automático utilizando los datos proporcionados en 'train.csv'.
-    Carga los datos de entrenamiento, los codifica, los escala, aplica el remuestreo SMOTEENN, ajusta un modelo RandomForestClassifier y guarda el modelo entrenado en 'model.pkl'.
+    Una función que entrena un modelo de aprendizaje automático utilizando los datos proporcionados en 'train.csv' y guarda el modelo entrenado en 'model.pkl'.
     """
 
     try:
