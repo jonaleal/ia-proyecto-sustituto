@@ -13,27 +13,47 @@
 
 # Fase-2
 **Sobre el directorio ``fase-2`` abre una terminal y ejecuta:**
-- ```docker build -t ai-proyecto-sustituto .```
-- ```docker run -it --name ai-container ai-proyecto-sustituto /bin/bash```
+```shell
+docker build -t ai-proyecto-sustituto .
+```
+```shell
+docker run -it --name ai-container ai-proyecto-sustituto /bin/bash
+```
 
 **Desde una nueva terminal sobre el directorio ``resources`` ejecuta:**
-- ```docker cp train.csv ai-container:/app``` 
-- ```docker cp test.csv ai-container:/app```
+```shell
+docker cp train.csv ai-container:/app
+``` 
+```shell
+docker cp test.csv ai-container:/app
+```
 
 **Vuelve a la primera terminal y ejecuta:**
-- ```python train.py --model_file model.pkl --data_file train.csv  --overwrite_model```
-- ```python predict.py --model_file model.pkl --input_file test.csv  --predictions_file predictions.csv```
+```shell
+python train.py --model_file model.pkl --data_file train.csv  --overwrite_model
+```
+```shell
+python predict.py --model_file model.pkl --input_file test.csv  --predictions_file predictions.csv
+```
 
 **Finalmente para ver las predicciones ejecuta:**
-- ```cat predictions.csv```
+```shell
+cat predictions.csv
+```
 
 # Fase-3
 **Sobre el directorio ``fase-3`` abre una terminal y ejecuta:**
-- ```docker build -t apirest .```
-- ```docker run -d --name apirest-container -p 80:80 apirest```
+```shell
+docker build -t apirest .
+```
+```shell
+docker run -d --name apirest-container -p 80:80 apirest
+```
 
 **Desde una nueva terminal sobre el directorio ``resources`` ejecuta:**
-- ```docker cp train.csv apirest-container:/app```
+```shell
+docker cp train.csv apirest-container:/app
+```
 
 **Prueba la API-REST**
 
