@@ -7,9 +7,9 @@
 **kaggle**: https://www.kaggle.com/datasets/iammustafatz/diabetes-prediction-dataset
 
 # Fase-1 
-1. Abre el notebook ````Diabetes_Prediction```` del directorio ```fase-1``` en google colab.
-2. Sube las credenciales de kaggle a colab (kaggle.json).
-3. Ejecuta el notebook para ver cómo se entrena y predice con el modelo.
+- Abre el notebook ````Diabetes_Prediction```` del directorio ```fase-1``` en google colab.
+- Sube las credenciales de kaggle a colab (kaggle.json).
+- Ejecuta el notebook para ver cómo se entrena y predice con el modelo.
 
 # Fase-2
 **Sobre el directorio ``fase-2`` abre una terminal y ejecuta:**
