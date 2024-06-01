@@ -5,9 +5,7 @@ FROM python:3.12
 WORKDIR /app
 
 # Copiar los archivos necesarios al directorio de la aplicación
-ADD requirements.txt /app
-ADD apirest.py /app
-ADD patient.py /app
+ADD .. /app
 
 # Instalar las dependencias
 RUN pip install --no-cache-dir -r requirements.txt

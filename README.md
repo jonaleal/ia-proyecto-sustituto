@@ -56,14 +56,14 @@ docker cp train.csv apirest-container:/app
 - Ahora haz una predicción. Para ello ve al endpoint ``/predict`` haz clic sobre ``Try it out`` y en el ``Request Body`` envía los datos necesarios para realizar la predicción, por ejemplo:
     ```json
     {
-    "gender": "Female",
-    "age": 36,
-    "hypertension": 0,
-    "heart_disease": 0,
-    "smoking_history": "current",
-    "bmi": 32.27,
-    "HbA1c_level": 6.2,
-    "blood_glucose_level": 220
+        "gender": "Female",
+        "age": 36,
+        "hypertension": 0,
+        "heart_disease": 0,
+        "smoking_history": "current",
+        "bmi": 32.27,
+        "HbA1c_level": 6.2,
+        "blood_glucose_level": 220
     }
     ```
     luego haz clic sobre ``Execute``.
